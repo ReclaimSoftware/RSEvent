@@ -47,7 +47,8 @@ void RSEvent_write(RSEvent *event, uint8_t *data, uint32_t *offset) {
 
 
 void RSEvent_writeWithCurrentTime(RSEvent *event, uint8_t *data, uint32_t *offset) {
-    
+    fprintf(stderr, "TODO: RSEvent_writeWithCurrentTime\n");
+    exit(1); // TODO
 }
 
 

@@ -1,5 +1,7 @@
 **An efficient codec for a stream of `(type, value, t_epoch, t_mono)` events**
 
+[![Build Status](https://secure.travis-ci.org/ReclaimSoftware/RSEvent.png)](http://travis-ci.org/ReclaimSoftware/RSEvent)
+
 
 ## RSEvent
 ```c

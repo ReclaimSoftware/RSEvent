@@ -1,0 +1,11 @@
+language: c
+script: "cd test && bash test.sh"
+compiler:
+  - clang
+  - gcc
+branches:
+  only:
+    - master
+notifications:
+  email:
+    - andrew@andrewschaaf.com

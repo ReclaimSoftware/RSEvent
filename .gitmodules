@@ -1,0 +1,3 @@
+[submodule "upstream/RSVarint"]
+	path = upstream/RSVarint
+	url = https://github.com/ReclaimSoftware/RSVarint.git

@@ -1,3 +1,6 @@
 [submodule "upstream/RSVarint"]
 	path = upstream/RSVarint
 	url = https://github.com/ReclaimSoftware/RSVarint.git
+[submodule "upstream/RSTest"]
+	path = upstream/RSTest
+	url = https://github.com/ReclaimSoftware/RSTest.git

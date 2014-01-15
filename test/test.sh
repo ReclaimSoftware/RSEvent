@@ -5,10 +5,11 @@ $CC \
         -Wall \
         -o ../build/runtests \
         -isystem ../ \
+        -isystem ../upstream/RSTest \
         -isystem ../upstream/RSVarint \
+        ../upstream/RSTest/RSTest.c \
         ../upstream/RSVarint/RSVarint.c \
         ../RSEvent.c \
-        framework.c \
         test-reading.c \
         test-writing.c \
         runtests.c &&

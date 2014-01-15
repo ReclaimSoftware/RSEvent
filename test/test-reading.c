@@ -1,6 +1,5 @@
-#include "framework.h"
-#include <string.h>
 #include <RSEvent.h>
+#include <RSTest.h>
 
 void test_reading() {
     DESCRIBE("RSEventReader") {
@@ -40,7 +39,7 @@ void test_reading() {
         }
 
         IT("reads some events") {
-            FILE *file = fopen("fixtures/some_events", "r");
+            FILE *file = assert_fopen("fixtures/some_events", "r");
             RSEventReader *reader = RSEventReader_create(file, 123);
             RSEvent *event = reader->event;
             int notDone;

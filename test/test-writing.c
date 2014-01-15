@@ -1,6 +1,6 @@
-#include <string.h>
 #include <RSEvent.h>
-#include "framework.h"
+#include <RSTest.h>
+#include <string.h>
 
 
 void test_writing() {
